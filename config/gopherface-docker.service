@@ -1,0 +1,12 @@
+[Unit]
+Description=Dockerized GopherFace
+After=docker.service
+Requires=docker.service
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/opt/gopherface
+ExecStart=/usr/local/bin/docker-compose -f /opt/gopherface/docker-compose.yml up -d
+ExecStop=/usr/local/bin/docker-compose -f /opt/gopherface/docker-compose.yml down
+[Install]
+WantedBy=multi-user.target
