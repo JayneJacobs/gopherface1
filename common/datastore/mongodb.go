@@ -3,7 +3,7 @@ package datastore
 import (
 	"fmt"
 
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/models"
 
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

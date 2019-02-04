@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/models"
 
 	"github.com/gorilla/securecookie"
 )

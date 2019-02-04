@@ -1,7 +1,7 @@
 package common
 
 import (
-	"gopherface/common/datastore"
+	"github.com/JayneJacobs/gopherface/common/datastore"
 
 	"go.isomorphicgo.org/go/isokit"
 )

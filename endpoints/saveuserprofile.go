@@ -6,10 +6,10 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common/authenticate"
+	"github.com/JayneJacobs/gopherface/common/authenticate"
 
-	"gopherface/common"
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/common"
+	"github.com/JayneJacobs/gopherface/models"
 )
 
 func SaveUserProfileEndpoint(env *common.Env) http.HandlerFunc {

@@ -8,11 +8,11 @@ import (
 	"os"
 	"strings"
 
-	"gopherface/common/authenticate"
-	"gopherface/common/utility"
-	"gopherface/tasks"
+	"github.com/JayneJacobs/gopherface/common/authenticate"
+	"github.com/JayneJacobs/gopherface/common/utility"
+	"github.com/JayneJacobs/gopherface/tasks"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 )
 
 func SaveUserProfileImageEndpoint(env *common.Env) http.HandlerFunc {

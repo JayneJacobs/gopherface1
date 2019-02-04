@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/models"
 
 	"github.com/gorilla/sessions"
 )

@@ -1,7 +1,7 @@
 package forms
 
 import (
-	"gopherface/models/socialmedia"
+	"github.com/JayneJacobs/gopherface/models/socialmedia"
 
 	"go.isomorphicgo.org/go/isokit"
 )

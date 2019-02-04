@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/models"
 
 	"github.com/mediocregopher/radix.v2/pool"
 )

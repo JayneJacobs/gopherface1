@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"gopherface/models/socialmedia"
+	"github.com/JayneJacobs/gopherface/models/socialmedia"
 
 	"honnef.co/go/js/dom"
 	"honnef.co/go/js/xhr"
 
-	"gopherface/client/common"
-	"gopherface/forms"
+	"github.com/JayneJacobs/gopherface/client/common"
+	"github.com/JayneJacobs/gopherface/forms"
 
 	"github.com/gopherjs/gopherjs/js"
 

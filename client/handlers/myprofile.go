@@ -8,9 +8,9 @@ import (
 	"honnef.co/go/js/dom"
 	"honnef.co/go/js/xhr"
 
-	"gopherface/client/common"
-	"gopherface/forms"
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/client/common"
+	"github.com/JayneJacobs/gopherface/forms"
+	"github.com/JayneJacobs/gopherface/models"
 
 	"github.com/gopherjs/gopherjs/js"
 

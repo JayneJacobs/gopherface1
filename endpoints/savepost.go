@@ -6,11 +6,11 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/models/socialmedia"
+	"github.com/JayneJacobs/gopherface/models/socialmedia"
 
-	"gopherface/common/authenticate"
+	"github.com/JayneJacobs/gopherface/common/authenticate"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 )
 
 func SavePostEndpoint(env *common.Env) http.HandlerFunc {

@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"log"
 
-	"gopherface/models/socialmedia"
+	"github.com/JayneJacobs/gopherface/models/socialmedia"
 
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/models"
 
 	_ "github.com/go-sql-driver/mysql"
 )

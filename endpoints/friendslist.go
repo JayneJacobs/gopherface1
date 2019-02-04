@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common/authenticate"
+	"github.com/JayneJacobs/gopherface/common/authenticate"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 )
 
 func FriendsListEndpoint(env *common.Env) http.HandlerFunc {

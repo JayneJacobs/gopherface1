@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 )
 
 func GetGopherProfileEndpoint(env *common.Env) http.HandlerFunc {

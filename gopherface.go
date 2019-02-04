@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 	"gopherface/common/datastore"
 	"gopherface/endpoints"
 	"gopherface/handlers"

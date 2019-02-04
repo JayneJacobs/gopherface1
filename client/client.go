@@ -3,9 +3,9 @@ package main
 import (
 	"strings"
 
-	"gopherface/client/handlers"
+	"github.com/JayneJacobs/gopherface/client/handlers"
 
-	"gopherface/client/common"
+	"github.com/JayneJacobs/gopherface/client/common"
 
 	"go.isomorphicgo.org/go/isokit"
 	"honnef.co/go/js/dom"
