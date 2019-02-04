@@ -5,10 +5,10 @@ import (
 	"os"
 
 	"github.com/JayneJacobs/gopherface/common"
-	"gopherface/common/datastore"
-	"gopherface/endpoints"
-	"gopherface/handlers"
-	"gopherface/middleware"
+	"github.com/JayneJacobs/gopherface/common/datastore"
+	"github.com/JayneJacobs/gopherface/endpoints"
+	"github.com/JayneJacobs/gopherface/handlers"
+	"github.com/JayneJacobs/gopherface/middleware"
 
 	"go.isomorphicgo.org/go/isokit"
 
