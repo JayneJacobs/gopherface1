@@ -28,7 +28,7 @@ services:
         # You should change the host mount paths for the following two entries to the appropriate location of 
         # your Let's Encrypt key files
         - /etc/letsencrypt/live/gopherface.jaynejacobs.com/fullchain.pem:/etc/nginx/certs/gopherfacecert.pem
-        - /etc/letsencrypt/live/gopherface.jaynejacogs.com/privkey.pem:/etc/nginx/certs/gopherfacekey.pem
+        - /etc/letsencrypt/live/gopherface.jaynejacobs.com/privkey.pem:/etc/nginx/certs/gopherfacekey.pem
     ports:
         - "80:80"
         - "443:443"

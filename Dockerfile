@@ -2,7 +2,7 @@ FROM golang
 MAINTAINER Jayne Jacobs jaynejacobs@jaynejacobs.com
 
 # Declare required environment variables
-ENV GOPHERFACE_APP_ROOT=/go/src/gopherface
+ENV GOPHERFACE_APP_ROOT=/go/src/github.com/JayneJacobs/gopherface
 ENV GOPHERFACE_HASH_KEY="CRKVBJs0kfyeQ9Y1"
 ENV GOPHERFACE_BLOCK_KEY="9LtmRLzVH27CwxrO"
 ENV GOPATH=/go
