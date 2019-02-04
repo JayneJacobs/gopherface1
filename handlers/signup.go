@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common"
-	"gopherface/models"
+	"github.com/JayneJacobs/gopherface/common"
+	"github.com/JayneJacobs/gopherface/models"
 
-	"gopherface/validationkit"
+	"github.com/JayneJacobs/gopherface/validationkit"
 )
 
 type SignUpForm struct {

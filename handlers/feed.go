@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"gopherface/common"
-	"gopherface/forms"
+	"github.com/JayneJacobs/gopherface/common"
+	"github.com/JayneJacobs/gopherface/forms"
 
 	"go.isomorphicgo.org/go/isokit"
 )

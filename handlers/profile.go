@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 
 	"github.com/gorilla/mux"
 	"go.isomorphicgo.org/go/isokit"

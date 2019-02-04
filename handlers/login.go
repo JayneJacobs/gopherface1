@@ -5,10 +5,10 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common"
-	"gopherface/common/authenticate"
-	"gopherface/common/utility"
-	"gopherface/validationkit"
+	"github.com/JayneJacobs/gopherface/common"
+	"github.com/JayneJacobs/gopherface/common/authenticate"
+	"github.com/JayneJacobs/gopherface/common/utility"
+	"github.com/JayneJacobs/gopherface/validationkit"
 )
 
 type LoginForm struct {

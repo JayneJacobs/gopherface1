@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common/authenticate"
+	"github.com/JayneJacobs/gopherface/common/authenticate"
 
 	"go.isomorphicgo.org/go/isokit"
 
-	"gopherface/common"
-	"gopherface/forms"
+	"github.com/JayneJacobs/gopherface/common"
+	"github.com/JayneJacobs/gopherface/forms"
 )
 
 func MyProfileHandler(env *common.Env) http.HandlerFunc {

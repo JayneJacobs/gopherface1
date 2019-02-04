@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"gopherface/models/socialmedia"
+	"github.com/JayneJacobs/gopherface/models/socialmedia"
 )
 
 type PostForm struct {

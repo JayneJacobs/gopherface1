@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 )
 
 func TemplateBundleHandler(env *common.Env) http.Handler {

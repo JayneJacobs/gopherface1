@@ -5,7 +5,7 @@ import (
 
 	"go.isomorphicgo.org/go/isokit"
 
-	"gopherface/common"
+	"github.com/JayneJacobs/gopherface/common"
 )
 
 func FriendsHandler(env *common.Env) http.HandlerFunc {

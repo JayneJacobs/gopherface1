@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopherface/common/asyncq"
-	"gopherface/common/utility"
-	"gopherface/tasks"
+	"github.com/JayneJacobs/gopherface/common/asyncq"
+	"github.com/JayneJacobs/gopherface/common/utility"
+	"github.com/JayneJacobs/gopherface/tasks"
 )
 
 type UploadImageForm struct {
