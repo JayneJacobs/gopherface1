@@ -8,7 +8,7 @@ ENV GOPHERFACE_BLOCK_KEY="9LtmRLzVH27CwxrO"
 ENV GOPATH=/go
 
 # Get the required Go packages
-RUN go get -u github.com/JayneJacobs/gopherjs
+RUN go get -u github.com/gopherjs/gopherjs
 RUN go get -u honnef.co/go/js/dom
 RUN go get -u -d -tags=js github.com/gopherjs/jsbuiltin
 RUN go get -u honnef.co/go/js/xhr
