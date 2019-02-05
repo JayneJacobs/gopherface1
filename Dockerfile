@@ -17,7 +17,7 @@ RUN go get -u go.isomorphicgo.org/go/isokit
 RUN go get -u github.com/tdewolff/minify
 RUN go get -u github.com/JayneJacobs/gopherface
 RUN go get -u go.isomorphicgo.org/uxtoolkit/cog
-RUN go get  /go/src/github.com/tdewolff/parse@
+RUN go get  /go/src/github.com/tdewolff/parse
 
 
 # Transpile and install the client-side application code
