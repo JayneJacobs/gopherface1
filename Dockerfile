@@ -14,7 +14,11 @@ RUN go get -u -d -tags=js github.com/gopherjs/jsbuiltin
 RUN go get -u honnef.co/go/js/xhr
 RUN go get -u github.com/gopherjs/websocket
 RUN go get -u go.isomorphicgo.org/go/isokit 
+RUN go get -u github.com/tdewolff/minify
 RUN go get -u github.com/JayneJacobs/gopherface
+RUN go get -u go.isomorphicgo.org/uxtoolkit/cog
+RUN go get -u github.com/tdewolff/minify
+
 
 # Transpile and install the client-side application code
 RUN cd $GOPHERFACE_APP_ROOT/client; go get ./..; /go/bin/gopherjs build -m --verbose -o $GOPHERFACE_APP_ROOT/static/js/client.min.js
